@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "DGAnimatedImageViewer"
-s.version      = "1.0"
+s.version      = "2.0"
 s.summary      = "This repository is for those who want to use animated image gallery in there project."
 
 # This description is used to generate tags and improve search results.
