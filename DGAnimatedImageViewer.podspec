@@ -18,7 +18,7 @@ s.summary          = 'Animated image viewer'
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = <<-DESC
-It is animated image gallery. You can display all your images here.
+It is animated image gallery. You can display all your images from a collection view here.
 DESC
 
 s.homepage         = 'https://github.com/RahulDG15963/DGAnimatedImageViewer'
