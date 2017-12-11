@@ -90,7 +90,7 @@ s.source       = { :git => "https://github.com/RahulDG15963/DGAnimatedImageViewe
 #  Not including the public_header_files will make all headers public.
 #
 
-s.source_files  = "Classes", "DGAnimatedImageViewer/**/*"
+s.source_files  = "Classes", "DGAnimatedImageViewer/Classes/**/*"
 s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"
