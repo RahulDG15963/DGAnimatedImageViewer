@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "DGAnimatedImageViewer"
-s.version      = "0.0.1"
+s.version      = "1.0"
 s.summary      = "This repository is for those who want to use animated image gallery in there project."
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ s.summary      = "This repository is for those who want to use animated image ga
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-s.description  = <<-DESC
+s.description  = <<-DESC "This pod is used to view all images in collection view in animated view. User can view there images in a gallery which opens with a animation."
 DESC
 
 s.homepage     = "https://github.com/RahulDG15963/DGAnimatedImageViewer"
@@ -64,10 +64,10 @@ s.author             = { "RahulDG15963" => "email@address.com" }
 #
 
 # s.platform     = :ios
-# s.platform     = :ios, "5.0"
+s.platform     = :ios, "10.0"
 
 #  When using multiple platforms
-# s.ios.deployment_target = "5.0"
+s.ios.deployment_target = "10.0"
 # s.osx.deployment_target = "10.7"
 # s.watchos.deployment_target = "2.0"
 # s.tvos.deployment_target = "9.0"
@@ -132,6 +132,6 @@ s.exclude_files = "Classes/Exclude"
 # s.requires_arc = true
 
 # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-s.dependency "SDWebImage", "~> 4.0"
+s.dependency "SDWebImage"
 
 end
