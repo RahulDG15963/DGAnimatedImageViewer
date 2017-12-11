@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DGAnimatedImageViewer_Example' do
+  pod 'DGAnimatedImageViewer', :path => '../'
+
+  target 'DGAnimatedImageViewer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
