@@ -79,7 +79,7 @@ s.author             = { "RahulDG15963" => "email@address.com" }
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/RahulDG15963/DGAnimatedImageViewer.git", :commit => "4790a430b81bcad0aba42049d53a5ef424334043" }
+s.source       = { :git => "https://github.com/RahulDG15963/DGAnimatedImageViewer.git", :commit => "4790a430b81bcad0aba42049d53a5ef424334043", :tag => s.version.to_s}
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
